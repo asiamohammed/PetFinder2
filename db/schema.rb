@@ -10,18 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_03_27_105203) do
+ActiveRecord::Schema[7.0].define(version: 2023_03_28_074200) do
   create_table "pets", force: :cascade do |t|
     t.string "image"
     t.string "name"
     t.string "breed"
-    t.string "type"
     t.string "age"
     t.string "gender"
     t.string "House_trained"
     t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "animal_type"
   end
 
 end
