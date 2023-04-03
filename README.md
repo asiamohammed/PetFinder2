@@ -18,7 +18,7 @@ This is a Rails API backend that uses Active Record to access and persist data i
 Open the Terminal command line: [CTRL+ALT+T]
 
 Clone this repository: [git@github.com:asiamohammed/PetFinder2.git]
-Change Directory: [cd foodalicious-react-project]
+Change Directory: [cd PetFinder2]
 
 run bundle install, rake db:migrate, rake db:seed and rails s
 
