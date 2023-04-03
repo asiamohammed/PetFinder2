@@ -1,4 +1,4 @@
-# Foodalicious
+# PetFinder
 
 # Author
 Asia Mohamed Ahmed
