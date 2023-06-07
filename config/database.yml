@@ -12,7 +12,7 @@ default: &default
 
 development:
   <<: *default
-  database: pets_bgdr
+  database: pets_bgdr_test
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -28,7 +28,7 @@ test:
 
 production:
   <<: *default
-  url: <%= ENV['postgres://pets_bgdr_user:m3e0fvucOME2a4T6m0zCAqDZbSSWqp33@dpg-ci03bu5269v5qbkj46h0-a/pets_bgdr'] %>
+  url: postgres://pets_bgdr_user:m3e0fvucOME2a4T6m0zCAqDZbSSWqp33@dpg-ci03bu5269v5qbkj46h0-a/pets_bgdr
   database: pets_bgdr
   username: pets_bgdr_user
-  password: <%= ENV['m3e0fvucOME2a4T6m0zCAqDZbSSWqp33'] %>
+  password: m3e0fvucOME2a4T6m0zCAqDZbSSWqp33
