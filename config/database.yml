@@ -24,11 +24,11 @@ development:
   #port: 5432
 test:
   <<: *default
-  database:  mysite_test
+  database:  pets_bgdr
 
 production:
   <<: *default
-  url: <%= ENV['DATABASE_URL'] %>
-  database: mysite_production
-  username: mysite
-  password: <%= ENV['MYSITE_DATABASE_PASSWORD'] %>
+  url: <%= ENV['postgres://pets_bgdr_user:m3e0fvucOME2a4T6m0zCAqDZbSSWqp33@dpg-ci03bu5269v5qbkj46h0-a/pets_bgdr'] %>
+  database: pets_bgdr
+  username: pets_bgdr_user
+  password: <%= ENV['m3e0fvucOME2a4T6m0zCAqDZbSSWqp33'] %>
