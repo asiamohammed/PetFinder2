@@ -21,7 +21,7 @@ development:
   #username: mysite
   #password:
   #host: localhost
-  #port: 5432
+port: 5432
 test:
   <<: *default
   database:  pets_bgdr
